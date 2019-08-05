@@ -1,0 +1,353 @@
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+	position: relative;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: : 16px;
+	line-height: 1.2;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a.menu {
+	display: block;
+	padding: 30px 25px;
+}
+
+p {
+	line-height: 2;
+	color: #585858;
+	margin: 0;
+	max-width: 480px;
+}
+.top-menu {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	background-color: #313030;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 0;
+}
+
+img {
+  margin: 0;
+
+}
+
+.top-menu li {
+	font-weight: bold;
+	}
+
+.top-menu li:hover {
+	background-color: #ff3f40;
+
+}
+
+/*первый экран*/
+
+.background {
+	width: 100%;
+	background-color: #f6f2f2;
+	height: 685px;
+	margin: 0;
+	position: relative;
+}
+
+.screen {
+	display: flex;
+	margin-top: 100px;
+	justify-content: space-between;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	width: 585px;
+	justify-content: space-between;
+	max-height: 370px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 60px;
+	margin: 0;
+	line-height: 1.2;
+	letter-spacing: 0.15em;
+}
+
+a.contact-us {
+	display: block;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	height: 20px;
+	width: 200px;
+	border: none;
+	background-color: #ff3f40;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+
+.contact-us:hover {
+	color: #ff3f40;
+	border: 2px solid #ff3f40;
+	background-color: #fff;
+	padding: 13px;
+}
+
+a.learnmore {
+	color: #ff3f40;
+	border: 2px solid #ff3f40;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 15px;
+	max-width: 150px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.learnmore:hover {
+	background-color: #ff3f40;
+	color: white;
+}
+
+.video {
+	width: 560px;
+	height: 315px;
+	background-color: #c4c0b1;
+	box-shadow: 0 -10px 40px #ccc8c8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.first-screen {
+	margin-top: 280px;
+}
+
+.first-text {
+	height: 450px;
+}
+/*второй экран*/
+
+h2 {
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 700;
+	color: #585858;
+	margin: 0;
+	padding: 0;
+}
+
+.service-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 750px;
+}
+
+.service {
+	width: 290px;
+	margin-bottom: 50px;
+
+}
+
+.service-name {
+	font-size: 24px;
+	margin-top: 20px;
+	font-weight: 600;
+	}
+
+
+/*третий экран*/
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #ececec;
+	color: #ececec;
+	height: 1px;
+	border: 1px solid #ececec;  
+}
+
+.red {
+	width: 10%;
+	background-color: #ff2d2d;
+	color: #ff2d2d;
+	height: 1px;
+	border: 1px solid #ff2d2d;
+	margin: 0;
+}
+
+.headline-container {
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.headline-products {
+	align-items: center;
+	text-align: center;
+}
+
+.slider-headlines {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-left: 150px;
+	padding-right: 150px; 
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #737373;
+	font-weight: 600;
+}
+
+h3:hover {
+	color: #ff2d2d;
+}
+
+h3:active {
+	color: #ff2d2d;
+}
+
+.blocks-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+
+}
+
+.block {
+	width: 310px;
+	height: 310px;
+	background-color: #f5f0dd;
+	margin: 5px;
+}
+
+/*четвертый экран*/
+
+div.employees-container {
+	display: flex;
+	align-items: flex-end;
+}
+
+div.photos {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+div.employees-block {
+	margin-left: 30px;
+}
+
+
+img.employee-photo {
+	display: block;
+}
+
+div.small-photo {
+	display: block;
+}
+
+ul.social {
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+
+li.social-link {
+	display: inline;
+	padding-right: 20px;
+	font-style: italic;
+	font-weight: 600;
+}
+
+span {
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #333333;
+}
+
+
+
+
+/*Пятый экран*/
+
+div.contact-container {
+	width: 100%;
+	height: 510px;
+	background-color: #f5f0dd;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: center;
+	height: 300px;
+	max-width: 1100px;
+	margin: auto;
+}
+
+h2.contacts , p.contacts {
+	color: white;
+	text-transform: none; 
+	text-align: center;
+}
+
+
+input[type="mail"] {
+	width: 520px;
+	height: 80px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 40px;
+	color: #535151;
+	font-family: Open Sans;
+	font-size: 16px;
+	margin-right: 20px;
+}
+
+button[type="submit"] {
+	width: 215px;
+	height: 80px;
+	border-radius: 3px;
+	font-family: Open Sans;
+	font-size: 18px;
+	text-transform: uppercase;
+	background-color: #ff2d2d;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+}
+
+button[type="submit"]:hover {
+	color: #ff3f40;
+	border: 2px solid #ff3f40;
+	background-color: #fff;
+}
